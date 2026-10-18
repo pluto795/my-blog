@@ -160,6 +160,13 @@
 	position: relative;
 }
 
+/* 顶层导航统一留白：有无下拉箭头的栏目宽度保持一致 */
+.navbar-nav > .dropdown-container > a,
+.navbar-nav > .dropdown-container > button {
+	padding-left: 0.75rem;
+	padding-right: 2.25rem;
+}
+
 @media (min-width: 1024px) {
 	.navbar-nav {
 		display: flex;

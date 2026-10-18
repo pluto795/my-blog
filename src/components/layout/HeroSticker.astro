@@ -9,6 +9,7 @@ const { config } = Astro.props;
 const stickerStyle = [
 	`--home-hero-left-eye-x: ${config.eye.xPercent}%`,
 	`--home-hero-left-eye-y: ${config.eye.yPercent}%`,
+	`--home-hero-eye-size: ${config.eye.sizePercent ?? 8.5}%`,
 	`--home-hero-right-eye-x: ${config.rightEye.xPercent}%`,
 	`--home-hero-right-eye-y: ${config.rightEye.yPercent}%`,
 	`--home-hero-mouth-x: ${config.mouth.xPercent}%`,
@@ -25,6 +26,7 @@ const stickerStyle = [
 	data-hero-sticker
 	data-eye-travel-x={config.eye.travelXPercent}
 	data-eye-travel-y={config.eye.travelYPercent}
+	data-mouth-shape={config.mouth.shape ?? "bar"}
 >
 	<img
 		class="home-hero__sticker-image"

@@ -17,15 +17,15 @@ export const friendsPageConfig: FriendsPageConfig = {
 	// 友链申请链接，填写后会在友链页面显示申请按钮
 	// 使用模板参数直接跳转到友链申请模板
 	applyLink:
-		"https://github.com/MmzMing/my-blog/issues/new?template=friend-link.yml",
+		"https://github.com/pluto795/my-blog/issues/new?template=friend-link.yml",
 
 	// 本站信息，用于友链申请指南弹窗中的站点信息展示
 	siteInfo: {
-		name: "MmzMing的知识库",
-		desc: "哈基米，南北绿豆",
-		url: "https://tblog.mmzhiku.xyz",
-		avatar: "https://i.stardots.io/784774835/StarDots-2026052116374135506.jpg",
-		email: "784774835@qq.com",
+		name: "她说的博客",
+		desc: "一个平平无奇的地方",
+		url: "https://blog.308328.xyz",
+		avatar: "https://blog.308328.xyz/favicon/android-chrome-192x192.png",
+		email: "976238090@qq.com",
 	},
 
 	// 注意事项，用于友链申请指南弹窗中的注意事项展示
@@ -49,22 +49,22 @@ export const friendsPageConfig: FriendsPageConfig = {
 	],
 
 	// 对话气泡文案，滚动到申请区时逐个弹出并打字机显示
-	// role: "cat" = 喵墩（左侧，作者头像）；"owner" = 站长（右侧，文字头像）
+	// role: "cat" = 蓝色大肥鱼（左侧，作者头像）；"owner" = 站长（右侧，文字头像）
 	chat: [
 		{
 			role: "cat",
-			name: "喵墩",
-			text: "来者何人喵？报上名号，本喵爪子底下可不收无名之辈。",
+			name: "蓝色大肥鱼",
+			text: "来者何人？报上名号，本鱼的鳍底下可不收无名之辈。",
 		},
 		{
 			role: "owner",
 			name: "站长",
-			text: "哈基墩，不得无礼！！欢迎各位大佬来小破站。",
+			text: "蓝色大肥鱼，不得无礼！！欢迎各位大佬来小破站。",
 		},
 		{
 			role: "cat",
-			name: "喵墩",
-			text: "喵？抱歉喵~第一时间没认出大佬您，里边请，茶水管够，把这儿当自己窝就行喵~",
+			name: "蓝色大肥鱼",
+			text: "咕噜？抱歉抱歉～第一时间没认出大佬您，里边请，茶水管够，把这儿当自己家就行～",
 		},
 	],
 };
@@ -328,7 +328,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "https://meet-blog.buyixiao.xyz/favicon.svg",
 		desc: "Meet Blog 博客星图",
 		siteurl:
-			"https://meet-blog.buyixiao.xyz/?ref=https%3A%2F%2Ftblog.mmzhiku.xyz/",
+			"https://meet-blog.buyixiao.xyz/?ref=https%3A%2F%2Fblog.308328.xyz%2F",
 		image: "/assets/images/friends/buyixiao.webp",
 		tags: ["星图"],
 		weight: 5,

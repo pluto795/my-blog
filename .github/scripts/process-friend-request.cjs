@@ -8,10 +8,10 @@ const FRIENDS_CONFIG_RELATIVE_PATH = 'src/config/friendsConfig.ts';
 
 // 站点信息 - 请根据你的实际站点信息修改
 const SITE_INFO = {
-	name: 'MmzMing',
-	url: 'https://tblog.mmzhiku.xyz',
-	avatar: 'https://tblog.mmzhiku.xyz/favicon/MyLogo.ico',
-	desc: 'MmzMing的博客',
+	name: '她说的博客',
+	url: 'https://blog.308328.xyz',
+	avatar: 'https://blog.308328.xyz/favicon/android-chrome-192x192.png',
+	desc: '一个平平无奇的地方',
 };
 
 const DEFAULT_TAG = 'Blog';

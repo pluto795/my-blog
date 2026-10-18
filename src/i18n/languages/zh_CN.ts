@@ -290,7 +290,7 @@ export const zh_CN: Translation = {
 	[Key.dialogueNext]: "下一句",
 	[Key.dialogueAutoPlay]: "自动播放",
 	[Key.reopenDialogue]: "重新打开对话",
-	[Key.dialogueRestoreHint]: "喵？还想继续聊聊吗",
+	[Key.dialogueRestoreHint]: "咕噜？还想继续聊聊吗",
 
 	// ===== 首页数据层 =====
 	[Key.siteData]: "站点数据",

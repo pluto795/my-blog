@@ -292,7 +292,7 @@ export const zh_TW: Translation = {
 	[Key.dialogueNext]: "下一句",
 	[Key.dialogueAutoPlay]: "自動播放",
 	[Key.reopenDialogue]: "重新開啟對話",
-	[Key.dialogueRestoreHint]: "喵？還想繼續聊聊嗎",
+	[Key.dialogueRestoreHint]: "咕嚕？還想繼續聊聊嗎",
 
 	// ===== 首页数据层 =====
 	[Key.siteData]: "網站資料",

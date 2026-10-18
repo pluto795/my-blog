@@ -13,19 +13,19 @@ export const homeConfig: HomeConfig = {
 	avatarBanner: "/assets/images/avatar-banner.webp",
 
 	// 名字
-	name: "MmzMing",
+	name: "她说",
 
 	// 首页展示名字（留空则使用 name）
-	displayName: "MmzMing",
+	displayName: "SheSays",
 
 	// 职业/身份标签
-	occupation: "[全干工程师 / 技术博主]",
+	occupation: "[社畜/ 一个普通的人]",
 
 	// 个人签名（支持多条，会循环打字+删除效果）
-	bio: ["且视他人之疑目如盏盏鬼火，大胆地去走你的夜路"],
+	bio: ["四海翻腾云水怒，五洲震荡风雷激。"],
 
 	hero: {
-		backgroundImage: "/assets/images/home/home.avif",
+		backgroundImage: "/assets/images/home/home-night.avif",
 		mosaic: {
 			rows: 4,
 			columns: 6,
@@ -52,26 +52,27 @@ export const homeConfig: HomeConfig = {
 		},
 		contact: {
 			platform: "B站",
-			handle: "Mmz明崽",
+			handle: "不甜不是豆浆",
 		},
 		sticker: {
-			image: "/assets/images/home/character.avif",
-			alt: "黑猫角色贴纸",
+			image: "/assets/images/home/character-whale.avif",
+			alt: "蓝发鲸鱼女仆角色贴纸",
 			eye: {
-				xPercent: 41.1,
-				yPercent: 48.2,
-				travelXPercent: 1.4,
-				travelYPercent: 1,
+				xPercent: 39,
+				yPercent: 45.3,
+				sizePercent: 5,
+				travelXPercent: 1.2,
+				travelYPercent: 0.8,
 			},
 			rightEye: {
-				xPercent: 64.1,
-				yPercent: 44.7,
+				xPercent: 52.5,
+				yPercent: 44.5,
 			},
 			mouth: {
-				xPercent: 53.4,
-				yPercent: 50.7,
-				widthPercent: 7.2,
-				heightPercent: 1.9,
+				xPercent: 46,
+				yPercent: 51,
+				widthPercent: 6.2,
+				heightPercent: 1.5,
 				rotation: -6,
 				travelScale: 0.45,
 			},
@@ -80,7 +81,7 @@ export const homeConfig: HomeConfig = {
 		dialogue: {
 			enabled: true,
 			speakers: {
-				host: "哈基墩",
+				host: "蓝色大肥鱼",
 				visitor: "访客",
 			},
 			menuTitle: "想聊点什么？",
@@ -88,32 +89,32 @@ export const homeConfig: HomeConfig = {
 			autoDelay: 1600,
 			// 默认逐句播放的简介，末句后弹出话题菜单
 			intro: [
-				{ speaker: "host", text: "欸——来客人了喵～随便坐，别客气。" },
-				{ speaker: "host", text: "我是喵墩，老爸在摸鱼，这儿归我管了喵～" },
+				{ speaker: "host", text: "欸——来客人了～随便坐，别客气。" },
+				{ speaker: "host", text: "我是蓝色大肥鱼，站长在摸鱼，这儿归我管了～" },
 				{
 					speaker: "host",
-					text: "对了喵，得搬上简介了~喵找找：且视他人之疑目如盏盏鬼火，大胆地去走你的夜路。",
+					text: "对了，得搬上简介了~我找找：四海翻腾云水怒，五洲震荡风雷激。",
 				},
-				{ speaker: "host", text: "想打听啥喵？戳戳下面的话题，喵跟你慢慢唠～" },
+				{ speaker: "host", text: "想打听啥？戳戳下面的话题，我跟你慢慢唠～" },
 			],
 			// 话题菜单：点击进入逐句对话，末句后返回菜单
 			topics: [
 				{
 					title: "关于我",
 					lines: [
-						{ speaker: "visitor", text: "你爸是哪方面选手呀？" },
+						{ speaker: "visitor", text: "站长是哪方面选手呀？" },
 						{
 							speaker: "host",
-							text: "嘛……算个半桶水全栈喵，外加一个不务正业的博客写手。",
+							text: "嘛……一个普通上班族，外加一个不务正业的博客写手。",
 						},
 						{
 							speaker: "host",
-							text: "前端后端都摸一点，俗称「全干工程师」喵～",
+							text: "白天上班，空闲时写点东西、折腾博客和 AI～",
 						},
 						{ speaker: "visitor", text: "听起来很忙的样子。" },
 						{
 							speaker: "host",
-							text: "忙归忙，但好玩呀——折腾本身就是浪漫喵～如果你感兴趣也可以加QQ群喵，放心，傻爸爸不咬人的",
+							text: "忙归忙，但好玩呀——折腾本身就是浪漫～如果你感兴趣也可以去留言板聊两句，放心，站长不咬人的",
 						},
 					],
 				},
@@ -123,13 +124,13 @@ export const homeConfig: HomeConfig = {
 						{ speaker: "visitor", text: "有什么好玩的功能吗？" },
 						{
 							speaker: "host",
-							text: "有个音乐3D可视化播放，但博客重点不是文章吗喵~老爸整站基本是AI搓出来的，喵爪都没动几下。",
+							text: "有个音乐3D可视化播放，但博客重点不是文章吗~站长整站基本是AI搓出来的，我鳍都没动几下。",
 						},
 						{
 							speaker: "host",
-							text: "傻爸爸最近在捣鼓Agent，不知道又要整啥活喵～",
+							text: "站长最近在捣鼓Agent，不知道又要整啥活～",
 						},
-						{ speaker: "host", text: "慢慢逛，角落里藏着不少彩蛋呢喵！" },
+						{ speaker: "host", text: "慢慢逛，角落里藏着不少彩蛋呢！" },
 					],
 				},
 			],
@@ -152,7 +153,7 @@ export const homeConfig: HomeConfig = {
 			// 祝福语单行显示（版式按 5 字排），可自由增减条数
 			headline: {
 				title: "祝愿各位",
-				messages: ["夜路有星光", "岁岁皆欢愉", "所念皆星河", "版本无回滚"],
+				messages: ["夜路有星光", "岁岁皆欢愉", "所念皆星河", "所遇皆温柔"],
 				enterDuration: 0.6,
 				messageHold: 2.6,
 				messageFlipDuration: 0.75,
@@ -164,43 +165,39 @@ export const homeConfig: HomeConfig = {
 			cycleDuration: 2.4,
 			// 留言墙气泡：同屏去重，每轮不放回；weight 越大越优先出场，缺省按 1 算。
 			// text 与 image 至少给一个；给了 image 就在文字下方带一张图。
-			// 文案是 2025—2026 网络热梗与站内老梗混排，梗过时了直接换掉就行
+			// 文案按站点自己的日常、海洋、夜晚和鲸鱼风格维护
 			bubbleMessages: [
 				{
-					text: "Token来",
-					weight: 5,
-					image: "/assets/images/home-blinds/act2-background/101.webp",
-				},
-				{
-					text: "昨日一去不复回 欧耶耶",
+					text: "今天先躲一会儿",
 					weight: 4,
 					image: "/assets/images/home-blinds/act2-background/3.gif",
 				},
 				{
-					text: "年更型站长",
+					text: "尾巴先下班了",
 					weight: 4,
 					image: "/assets/images/home-blinds/act2-background/2.gif",
 				},
 				{
-					text: "我来看看怎么个事",
-					weight: 4,
+					text: "慢慢走，不着急",
+					weight: 3,
 					image: "/assets/images/home-blinds/act2-background/1.gif",
 				},
-				{ text: "主打一个随缘更新", weight: 3 },
-				{ text: "低山臭水遇知音", weight: 3 },
-				{ text: "站长，博客开源吗", weight: 3 },
-				{ text: "活人感拉满", weight: 3 },
-				{ text: "爱你，站长", weight: 3 },
-				{ text: "版本无回滚", weight: 3 },
-				{ text: "别熬夜了", weight: 3 },
-				{ text: "刚出锅，趁热看", weight: 2 },
-				{ text: "开源的，开源的", weight: 2 },
-				{ text: "哈基墩到此一游", weight: 2 },
-				{ text: "敬自己一杯", weight: 2 },
-				{ text: "感觉很赞", weight: 2 },
-				{ text: "班味有点重", weight: 2 },
-				{ text: "已收藏，下次一定看", weight: 2 },
-				{ text: "归档翻到凌晨三点", weight: 2 },
+				{ text: "今天也准时下班", weight: 3 },
+				{ text: "把星星装进瓶子里", weight: 3 },
+				{ text: "博客是第二个小窝", weight: 3 },
+				{ text: "下班后的第二人生", weight: 3 },
+				{ text: "今夜适合听歌", weight: 3 },
+				{ text: "给生活留一点空白", weight: 3 },
+				{ text: "蓝色大肥鱼路过", weight: 3 },
+				{ text: "此页有鲸鱼出没", weight: 3 },
+				{ text: "在海底也能看见星星", weight: 2 },
+				{ text: "玫瑰和泡泡都给你", weight: 2 },
+				{ text: "摸鱼是正经事", weight: 2 },
+				{ text: "把平凡日子写下来", weight: 2 },
+				{ text: "欢迎来小窝坐坐", weight: 2 },
+				{ text: "今晚也要早点睡", weight: 2 },
+				{ text: "她说，慢一点也没关系", weight: 2 },
+				{ text: "下一站是星空", weight: 2 },
 			],
 			// 从评论区捞一条真实留言混进上面这池子：滚到影像层才异步取，且只取一次
 			commentBubble: {
@@ -208,43 +205,46 @@ export const homeConfig: HomeConfig = {
 				weight: 4,
 			},
 			composite: {
-				title: "筑一间小屋",
-				description: "以代码为梁、热爱为瓦，荒原上筑起一间自己的小屋。",
+				title: "开一扇窗",
+				description: "想把普通日子里的光，留在某个地方。",
 				alt: "第一幕插画",
 				// 明信片左下角标题下的完整日期；删掉即只显示标题
-				date: "2026 / 05 / 07",
+				date: "2026 / 10 / 17",
 			},
 			items: [
 				{
-					title: "小屋落户",
-					description: "一纸备案落定，小屋自此有门有牌，堂堂正正晒着太阳。",
+					title: "小窝落成",
+					description: "从模板开始，一点点换成自己的颜色。",
 					image: "/assets/images/home-blinds/act2/1.webp",
 					alt: "第二幕插画",
-					date: "2026 / 06 / 10",
+					date: "2026 / 10 / 17",
 				},
 				{
-					title: "尘满窗台",
-					description: "人往学海拾新，倦意悄悄落了窗，小屋静候，蒙上薄尘。",
+					title: "灯火初上",
+					description: "白天上班，晚上写字；小窝的灯慢慢亮起来。",
 					image: "/assets/images/home-blinds/act2/2.webp",
 					alt: "第三幕插画",
-					date: "2026 / 06 / 21",
+					date: "2026 / 10 / 18",
 				},
 				{
-					title: "重燃灯火",
-					description: "拂去薄尘，重燃灯火，一砖一瓦再把小屋细细打磨。",
+					title: "海风入夜",
+					description: "蓝色大肥鱼住进来，带着尾巴、泡泡和玫瑰。",
 					image: "/assets/images/home-blinds/act2/3.webp",
 					alt: "第四幕插画",
-					date: "2026 / 08 / 18",
+					date: "2026 / 10 / 18",
 				},
 				{
-					title: "抵达之前",
-					description: "笔墨暂歇，来日方长；下一程山水，且歌且行。",
+					title: "继续生长",
+					description: "不急着抵达，慢慢写，慢慢更新。",
 					image: "/assets/images/home-blinds/act2/4.webp",
 					alt: "第五幕插画",
-					date: "2026 / 09 / 01",
+					date: "2026 / 10 / 18",
 				},
 			],
-			standImages: ["/assets/images/home-blinds/act2-doll/1.gif", "/assets/images/home-blinds/act2-doll/2.gif"],
+			standImages: [
+				"/assets/images/home-blinds/act2-doll/deepseek-sing.webp",
+				"/assets/images/home-blinds/act2-doll/deepseek-yay.webp",
+			],
 		},
 	},
 
@@ -255,21 +255,15 @@ export const homeConfig: HomeConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
 	links: [
 		{
-			name: "qq",
-			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/2R07cjGTZ0",
-			color: "#12B7F6",
-		},
-		{
 			name: "B站",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/15446538",
+			url: "https://space.bilibili.com/9989207",
 			color: "#FB7299",
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/MmzMing",
+			url: "https://github.com/pluto795",
 			color: "#1F6FEB",
 		},
 		{

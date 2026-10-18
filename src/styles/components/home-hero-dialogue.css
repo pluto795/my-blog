@@ -493,7 +493,7 @@
 }
 
 .home-hero__sticker-eye {
-	width: 8.5%;
+	width: var(--home-hero-eye-size, 8.5%);
 	aspect-ratio: 1;
 	transform: translate(
 		calc(-50% + var(--home-hero-feature-shift-x, 0px)),
@@ -543,6 +543,22 @@
 	border-radius: 0.16rem;
 	clip-path: inset(0 round 0.16rem);
 	animation: home-hero-sticker-talk 180ms steps(2, end) infinite;
+}
+
+.home-hero__sticker[data-mouth-shape="triangle"] .home-hero__sticker-mouth {
+	border-radius: 0;
+	clip-path: polygon(50% 0, 75% 100%, 25% 100%);
+}
+
+.home-hero__dialogue:has(
+		.home-hero__dialogue-box[data-typing="true"]
+	)
+	.home-hero__sticker[data-mouth-shape="triangle"]
+	.home-hero__sticker-mouth {
+	width: var(--home-hero-mouth-width);
+	height: var(--home-hero-mouth-height);
+	clip-path: polygon(50% 0, 75% 100%, 25% 100%);
+	animation: none;
 }
 
 @keyframes home-hero-dialogue-caret {

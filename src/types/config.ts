@@ -321,7 +321,7 @@ export type HeroDialogueConfig = {
 	enabled?: boolean;
 	/** 说话者名称 */
 	speakers?: {
-		host?: string; // 站长名，如「哈基墩」
+		host?: string; // 站长名，如「蓝色大肥鱼」
 		visitor?: string; // 访客名，如「访客」
 	};
 	/** 默认展示的简介台词，逐句播放；末句后可打开话题菜单 */
@@ -384,6 +384,8 @@ export type HeroStickerConfig = {
 		yPercent: number;
 		travelXPercent: number;
 		travelYPercent: number;
+		/** 眼睛直径占贴纸宽度的百分比，默认 8.5 */
+		sizePercent?: number;
 	};
 	rightEye: {
 		xPercent: number;
@@ -396,6 +398,8 @@ export type HeroStickerConfig = {
 		heightPercent: number;
 		rotation: number;
 		travelScale: number;
+		/** 嘴型：bar 为默认短横，triangle 为三角形 */
+		shape?: "bar" | "triangle";
 	};
 };
 
@@ -791,7 +795,7 @@ export type FriendNote = {
 };
 
 export type FriendChatMessage = {
-	role: "cat" | "owner"; // cat=喵墩（左侧，作者头像），owner=站长（右侧，文字头像）
+	role: "cat" | "owner"; // cat=蓝色大肥鱼（左侧，作者头像），owner=站长（右侧，文字头像）
 	name: string; // 气泡署名
 	text: string; // 气泡文字，打字机逐字显示
 };
