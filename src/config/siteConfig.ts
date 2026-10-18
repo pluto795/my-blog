@@ -202,11 +202,12 @@ export const siteConfig: SiteConfig = {
 		// Umami 统计配置
 		umamiAnalytics: {
 			websiteId: "a78aac59-e96a-496b-a302-d78b799d207c",
-			shareId: "",
+			shareId: "NoSYzchWvReIqLZ7",
 			scriptUrl: "https://cloud.umami.is/script.js",
+			apiBase: "https://cloud.umami.is/analytics/us",
 			// 使用 Umami 的 PV 展示文章详情、列表与网格浏览量；启用时优先于评论系统统计
 			pageviews: {
-				enabled: false,
+				enabled: true,
 			},
 			// 是否追踪出站链接
 			trackOutboundLinks: true,
