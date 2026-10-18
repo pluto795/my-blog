@@ -148,7 +148,7 @@ export const homeConfig: HomeConfig = {
 	homeBlinds: {
 		enabled: true,
 		reveal: {
-			backgroundImage: "/assets/images/home-blinds/act1/1.webp",
+			backgroundImage: "/assets/images/home-blinds/act1/1-opt.webp",
 			// 长条横移揭示的入场标题：标题单行显示（版式按 4 字排），
 			// 祝福语单行显示（版式按 5 字排），可自由增减条数
 			headline: {
@@ -170,17 +170,17 @@ export const homeConfig: HomeConfig = {
 				{
 					text: "今天先躲一会儿",
 					weight: 4,
-					image: "/assets/images/home-blinds/act2-background/3.gif",
+					image: "/assets/images/home-blinds/act2-background/3.webp",
 				},
 				{
 					text: "尾巴先下班了",
 					weight: 4,
-					image: "/assets/images/home-blinds/act2-background/2.gif",
+					image: "/assets/images/home-blinds/act2-background/2.webp",
 				},
 				{
 					text: "慢慢走，不着急",
 					weight: 3,
-					image: "/assets/images/home-blinds/act2-background/1.gif",
+					image: "/assets/images/home-blinds/act2-background/1.webp",
 				},
 				{ text: "今天也准时下班", weight: 3 },
 				{ text: "把星星装进瓶子里", weight: 3 },
@@ -215,7 +215,7 @@ export const homeConfig: HomeConfig = {
 				{
 					title: "小窝落成",
 					description: "从模板开始，一点点换成自己的颜色。",
-					image: "/assets/images/home-blinds/act2/1.webp",
+					image: "/assets/images/home-blinds/act2/1-opt.webp",
 					alt: "第二幕插画",
 					date: "2026 / 10 / 17",
 				},
@@ -229,21 +229,21 @@ export const homeConfig: HomeConfig = {
 				{
 					title: "海风入夜",
 					description: "蓝色大肥鱼住进来，带着尾巴、泡泡和玫瑰。",
-					image: "/assets/images/home-blinds/act2/3.webp",
+					image: "/assets/images/home-blinds/act2/3-opt.webp",
 					alt: "第四幕插画",
 					date: "2026 / 10 / 18",
 				},
 				{
 					title: "继续生长",
 					description: "不急着抵达，慢慢写，慢慢更新。",
-					image: "/assets/images/home-blinds/act2/4.webp",
+					image: "/assets/images/home-blinds/act2/4-opt.webp",
 					alt: "第五幕插画",
 					date: "2026 / 10 / 18",
 				},
 			],
 			standImages: [
-				"/assets/images/home-blinds/act2-doll/deepseek-sing.webp",
-				"/assets/images/home-blinds/act2-doll/deepseek-yay.webp",
+				"/assets/images/home-blinds/act2-doll/deepseek-sing-opt.webp",
+				"/assets/images/home-blinds/act2-doll/deepseek-yay-opt.webp",
 			],
 		},
 	},
