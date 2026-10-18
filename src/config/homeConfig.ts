@@ -25,7 +25,7 @@ export const homeConfig: HomeConfig = {
 	bio: ["四海翻腾云水怒，五洲震荡风雷激。"],
 
 	hero: {
-		backgroundImage: "/assets/images/home/home-night.avif",
+		backgroundImage: "/assets/images/home/home-pixel.avif",
 		mosaic: {
 			rows: 4,
 			columns: 6,
